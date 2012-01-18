@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>#foreach(\$${1:temp_variable} in \$${2:array})
+	<string>#foreach (\$${1:temp_variable} in \$${2:array})
 	#${3:thing_to_do}
 #end</string>
 	<key>name</key>
